@@ -53,6 +53,7 @@ const containerElement = css`
   @media (max-width: 768px) {
     width: 100%;
     padding: 10px;
+    height: auto;
   }
   h1 {
     font-family: "Pacifico", cursive;
@@ -74,6 +75,9 @@ S.TromboneImage = styled.section`
   ${containerElement};
   background-image: url(${backgroundImage});
   background-size: cover;
+  @media (max-width: 768px) {
+    height: 300px;
+  }
 `;
 
 S.Introduction = styled.section`
@@ -98,7 +102,7 @@ S.Introduction = styled.section`
 S.ProfilePhoto = styled.section`
   ${containerElement};
   img {
-    width: 100%;
+    width: 90%;
     border: 1px #ddd solid;
     border-radius: 10px;
     padding 5px;
