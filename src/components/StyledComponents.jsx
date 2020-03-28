@@ -89,8 +89,12 @@ S.Introduction = styled.section`
     font-size: 1.2em;
     color: #264d73;
     font-weight: bold;
+    @media (max-width: 768px) {
+      height: 300px;
+      font-size: 1em;
+    }
   }
-  .email {
+  .contactDetail {
     text-decoration: none;
     color: #264d73;
   }
