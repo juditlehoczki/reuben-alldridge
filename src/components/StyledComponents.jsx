@@ -13,6 +13,7 @@ S.Navbar = styled.nav`
   padding: 20px;
   border-top-left-radius: 15px;
   border-top-right-radius: 15px;
+  box-shadow: -5px -5px 8px #888888;
   transform: rotate(-90deg);
   a {
     padding: 20px;
