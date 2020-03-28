@@ -13,6 +13,11 @@ function App() {
   return (
     <div className="App">
       <Navbar />
+      <S.JL>
+        <a href="http://juditlehoczki.me" target="blank_">
+          JL
+        </a>
+      </S.JL>
       <S.Container>
         <S.TromboneImage />
         <Introduction />

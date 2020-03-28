@@ -18,24 +18,21 @@ const Home = () => {
       </p>
       <p>
         Please enquire to
-        <br />
         <div>
-          <span className="contactInfo">
+          <div className="contactInfo">
             <a
               className="contactDetail"
               href="mailto:reubenthetrombonist@yahoo.com"
             >
               <i class="far fa-envelope"></i> reubenthetrombonist@yahoo.com
             </a>
-          </span>
-          <br />
-          or alternatively by text or call to
-          <br />
-          <span className="contactInfo phoneNumber">
+          </div>
+          <div>or alternatively by text or call to</div>
+          <div className="contactInfo phoneNumber">
             <a className="contactDetail" href="tel:+447891136078">
               <i class="fas fa-mobile-alt"></i> +44 (0) 7891 136 078
             </a>
-          </span>
+          </div>
         </div>
       </p>
     </S.Introduction>

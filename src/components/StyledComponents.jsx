@@ -22,7 +22,7 @@ S.Navbar = styled.nav`
     font-weight: bold;
   }
   a:hover {
-    color: pink;
+    color: lightblue;
   }
   @media (max-width: 768px) {
     transform: rotate(0deg);
@@ -33,6 +33,32 @@ S.Navbar = styled.nav`
     border-top-left-radius: 0px;
     border-top-right-radius: 0px;
     padding: 20px 0px;
+  }
+`;
+
+S.JL = styled.div`
+  position: fixed;
+  right: 0px;
+  bottom: 10px;
+  font-family: "Courgette", cursive;
+  font-size: 0.8em;
+  background-color: pink;
+  opacity: 50%;
+  padding: 10px;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+  box-shadow: -3px -3px 5px #888888;
+  a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+  }
+  a:hover {
+    color: #ff007f;
+  }
+  @media (max-width: 768px) {
+    font-size: 0.4em;
+    padding: 5px;
   }
 `;
 
@@ -52,7 +78,7 @@ const containerElement = css`
   padding: 100px;
   @media (max-width: 768px) {
     width: 100%;
-    padding: 10px;
+    padding: 20px;
     height: auto;
   }
   h1 {
@@ -85,18 +111,27 @@ S.Introduction = styled.section`
   p {
     ${text}
   }
+
   .contactInfo {
-    font-size: 1.2em;
     color: #264d73;
     font-weight: bold;
     @media (max-width: 768px) {
-      height: 300px;
-      font-size: 1em;
+      font-size: 0.8em;
+      margin: 10px auto;
     }
   }
   .contactDetail {
-    text-decoration: none;
     color: #264d73;
+    text-decoration: none;
+    @media (max-width: 768px) {
+      border: 1px black solid;
+      border-radius: 5px;
+      padding: 8px;
+      margin: 5px;
+      background-color: black;
+      color: white;
+      width: 90%;
+    }
   }
   .phoneNumber {
     letter-spacing: 1px;
