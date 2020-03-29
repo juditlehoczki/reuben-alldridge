@@ -1,5 +1,5 @@
 import React from "react";
-import Profile from "../img/profile.jpg";
+import Profile from "../img/reuben.jpg";
 
 import S from "./StyledComponents";
 

@@ -6,7 +6,7 @@ const Navbar = () => {
   return (
     <S.Navbar>
       <a href="#about">About</a>
-      <a href="#">Contact</a>
+      <a href="#contact">Contact</a>
     </S.Navbar>
   );
 };

@@ -4,8 +4,8 @@ import S from "./StyledComponents";
 
 const About = () => {
   return (
-    <S.About>
-      <h1 name="#about">About me</h1>
+    <S.About name="about" id="about">
+      <h1>About me</h1>
       <p>I am an active teacher, conductor and trombonist.</p>
       <p>
         After graduating from Leeds College of Music in 2002 I worked as a

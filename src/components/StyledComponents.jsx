@@ -57,8 +57,12 @@ S.JL = styled.div`
     color: #ff007f;
   }
   @media (max-width: 768px) {
-    font-size: 0.4em;
-    padding: 5px;
+    position: relative;
+    order: 3;
+    margin-top: 30px;
+    width: 20px;
+    margin-left: calc(100% - 40px);
+    height: 20px;
   }
 `;
 
@@ -76,6 +80,9 @@ const containerElement = css`
   background-color: white;
   box-sizing: border-box;
   padding: 100px;
+  @media (max-width: 1100px) {
+    padding: 50px;
+  }
   @media (max-width: 768px) {
     width: 100%;
     padding: 20px;
@@ -85,6 +92,9 @@ const containerElement = css`
     font-family: "Pacifico", cursive;
     font-size: 2.5em;
     margin: 0;
+    @media (max-width: 768px) {
+      padding-top: 40px;
+    }
   }
 `;
 
@@ -102,7 +112,8 @@ S.TromboneImage = styled.section`
   background-image: url(${backgroundImage});
   background-size: cover;
   @media (max-width: 768px) {
-    height: 300px;
+    height: 400px;
+    order: 2;
   }
 `;
 
@@ -141,10 +152,12 @@ S.Introduction = styled.section`
 S.ProfilePhoto = styled.section`
   ${containerElement};
   img {
-    width: 90%;
+    // width: 90%;
     border: 1px #ddd solid;
     border-radius: 10px;
     padding 5px;
+    max-height: 100%;
+    max-width: 100%;
   }
   margin: 0px auto;
 `;

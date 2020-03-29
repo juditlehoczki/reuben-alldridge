@@ -4,7 +4,7 @@ import S from "./StyledComponents";
 
 const Home = () => {
   return (
-    <S.Introduction>
+    <S.Introduction name="contact" id="contact">
       <h1>Reuben Alldridge</h1>
       <p>
         Music tuition available now with professional musician and teacher

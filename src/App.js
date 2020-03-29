@@ -13,16 +13,16 @@ function App() {
   return (
     <div className="App">
       <Navbar />
-      <S.JL>
-        <a href="http://juditlehoczki.me" target="blank_">
-          JL
-        </a>
-      </S.JL>
       <S.Container>
-        <S.TromboneImage />
         <Introduction />
-        <About />
         <ProfilePhoto />
+        <S.TromboneImage />
+        <About />
+        <S.JL>
+          <a href="http://juditlehoczki.me" target="blank_">
+            JL
+          </a>
+        </S.JL>
       </S.Container>
     </div>
   );
