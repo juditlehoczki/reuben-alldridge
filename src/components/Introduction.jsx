@@ -13,7 +13,7 @@ const Home = () => {
       </p>
       <p>
         I am experienced and qualified in taking musicians from their first
-        notes right up to grade 8 and diploma standard, or whatever suits
+        notes right up to grade 8 and diploma standard, or whatever suits the
         aspirations of the individual.
       </p>
       <p>
